@@ -1,0 +1,13 @@
+{
+    "css": [
+        "css/buttons.bootstrap.css",
+        "css/buttons.bootstrap.min.css"
+    ],
+    "js": [
+        "js/buttons.bootstrap.js",
+        "js/buttons.bootstrap.min.js"
+    ],
+    "src-repo": "http://github.com/DataTables/Buttons",
+    "last-sync": "99932438387400c417f96616987466c0a5053a35",
+    "last-tag": "1.0.3"
+}
