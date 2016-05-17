@@ -6,7 +6,8 @@
         "js/buttons.bootstrap.js",
         "css/buttons.bootstrap.css"
     ],
-    "main": "./js/buttons.bootstrap.js",
+    "main": "js/buttons.bootstrap.js",
+    "style": "css/buttons.bootstrap.css",
     "keywords": [
         "buttons",
         "excel",
