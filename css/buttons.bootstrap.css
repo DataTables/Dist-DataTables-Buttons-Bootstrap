@@ -108,6 +108,9 @@ ul.dt-button-collection.dropdown-menu.four-column {
   -o-column-count: 4;
   column-count: 4;
 }
+ul.dt-button-collection.dropdown-menu .dt-button {
+  border-radius: 0;
+}
 
 div.dt-button-background {
   position: fixed;
