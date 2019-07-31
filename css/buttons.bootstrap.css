@@ -94,6 +94,8 @@ ul.dt-button-collection.dropdown-menu > * {
 ul.dt-button-collection.dropdown-menu.two-column {
   width: 300px;
   padding-bottom: 1px;
+}
+ul.dt-button-collection.dropdown-menu.two-column div.dt-button-collection-liner {
   -webkit-column-count: 2;
   -moz-column-count: 2;
   -ms-column-count: 2;
@@ -103,6 +105,8 @@ ul.dt-button-collection.dropdown-menu.two-column {
 ul.dt-button-collection.dropdown-menu.three-column {
   width: 450px;
   padding-bottom: 1px;
+}
+ul.dt-button-collection.dropdown-menu.three-column div.dt-button-collection-liner {
   -webkit-column-count: 3;
   -moz-column-count: 3;
   -ms-column-count: 3;
@@ -112,6 +116,8 @@ ul.dt-button-collection.dropdown-menu.three-column {
 ul.dt-button-collection.dropdown-menu.four-column {
   width: 600px;
   padding-bottom: 1px;
+}
+ul.dt-button-collection.dropdown-menu.four-column div.dt-button-collection-liner {
   -webkit-column-count: 4;
   -moz-column-count: 4;
   -ms-column-count: 4;
