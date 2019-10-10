@@ -81,7 +81,7 @@ div.dt-button-collection.fixed {
   border-radius: 0;
 }
 div.dt-button-collection.fixed.two-column {
-  margin-left: -150px;
+  margin-left: -200px;
 }
 div.dt-button-collection.fixed.three-column {
   margin-left: -225px;
@@ -102,7 +102,7 @@ div.dt-button-collection > :last-child > * {
   break-inside: avoid;
 }
 div.dt-button-collection.two-column {
-  width: 300px;
+  width: 400px;
 }
 div.dt-button-collection.two-column > :last-child {
   padding-bottom: 1px;
