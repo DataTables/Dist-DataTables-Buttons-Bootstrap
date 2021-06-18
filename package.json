@@ -11,11 +11,11 @@
     ],
     "keywords": [
         "Buttons",
-        "Column Visibility",
-        "csv",
-        "excel",
-        "pdf",
-        "print",
+ "Column Visibility",
+ "csv",
+ "excel",
+ "pdf",
+ "print",
         "Bootstrap",
         "Datatables",
         "jQuery",
@@ -24,9 +24,9 @@
         "sort"
     ],
     "dependencies": {
-        "jquery": ">=1.7",
-        "datatables.net-bs": "^1.10.15",
-        "datatables.net-buttons": "1.7.1"
+        "datatables.net-buttons": ">=1.7.1",
+        "datatables.net-bs": ">=1.10.26-dev",
+        "jquery": ">=1.7"
     },
     "moduleType": [
         "globals",
