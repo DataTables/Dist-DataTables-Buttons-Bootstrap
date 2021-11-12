@@ -246,6 +246,19 @@ div.dt-btn-split-wrapper button.dt-btn-split-drop {
   border-top-right-radius: 4px !important;
   border-bottom-right-radius: 4px !important;
 }
+div.dt-btn-split-wrapper:active:not(.disabled) button, div.dt-btn-split-wrapper.active:not(.disabled) button {
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+div.dt-btn-split-wrapper:active:not(.disabled) button.dt-btn-split-drop, div.dt-btn-split-wrapper.active:not(.disabled) button.dt-btn-split-drop {
+  box-shadow: none;
+  background-color: #fff;
+  border-color: #adadad;
+}
+div.dt-btn-split-wrapper:active:not(.disabled) button:hover, div.dt-btn-split-wrapper.active:not(.disabled) button:hover {
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
 
 span.dt-down-arrow {
   color: rgba(70, 70, 70, 0.9);
