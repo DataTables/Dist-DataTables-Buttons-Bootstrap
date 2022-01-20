@@ -116,12 +116,22 @@ div.dt-button-collection {
   position: absolute;
   z-index: 2001;
   width: 100%;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  padding: 0.5rem 0;
 }
 div.dt-button-collection ul.dropdown-menu {
   position: relative;
   display: block;
   z-index: 2002;
   min-width: 100%;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  border-radius: 0;
 }
 div.dt-button-collection div.dt-btn-split-wrapper {
   width: 100%;
@@ -142,6 +152,7 @@ div.dt-button-collection button.dt-btn-split-drop-button:focus {
 }
 div.dt-button-collection.fixed {
   position: fixed;
+  display: block;
   top: 50%;
   left: 50%;
   margin-left: -75px;
@@ -261,20 +272,6 @@ div.dt-button-collection.columns.dtb-b1 .dt-button {
   div.dt-button-collection.columns > :last-child {
     width: 200px;
   }
-}
-div.dt-button-collection.fixed {
-  background-color: white;
-  border: 1px solid rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
-  padding: 0.5rem 0;
-}
-div.dt-button-collection.fixed .dropdown-menu {
-  background-color: transparent;
-  border: none;
-  box-shadow: none;
-  padding: 0;
-  border-radius: 0;
 }
 
 div.dt-button-background {
