@@ -4,7 +4,7 @@
     "main": "js/buttons.bootstrap.js",
     "style": "css/buttons.bootstrap.css",
     "types": "./types/buttons.bootstrap.d.ts",
-    "version": "2.2.1",
+    "version": "2.2.2",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
