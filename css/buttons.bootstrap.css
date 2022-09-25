@@ -34,6 +34,10 @@ div.dataTables_wrapper {
 div.dt-buttons {
   position: initial;
 }
+div.dt-buttons .dt-button {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 
 div.dt-button-info {
   position: fixed;
@@ -71,7 +75,7 @@ div.dtb-popover-close {
   text-align: center;
   border-radius: 3px;
   cursor: pointer;
-  z-index: 12;
+  z-index: 2003;
 }
 
 button.dtb-hide-drop {
