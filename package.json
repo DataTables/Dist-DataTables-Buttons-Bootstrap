@@ -2,12 +2,14 @@
     "name": "datatables.net-buttons-bs",
     "description": "Buttons for DataTables with styling for [Bootstrap](https://getbootstrap.com/docs/3.3/)",
     "main": "js/buttons.bootstrap.js",
+    "module": "js/buttons.bootstrap.mjs",
     "style": "css/buttons.bootstrap.css",
     "types": "./types/buttons.bootstrap.d.ts",
     "version": "2.2.3",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
+        "js/**/*.mjs",
         "types/**/*.d.ts"
     ],
     "keywords": [
