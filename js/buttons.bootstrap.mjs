@@ -4,7 +4,7 @@
 
 import $ from 'jquery';
 import DataTable from 'datatables.net-bs';
-import 'datatables.net-buttons';
+import Buttons from 'datatables.net-buttons';
 
 
 
