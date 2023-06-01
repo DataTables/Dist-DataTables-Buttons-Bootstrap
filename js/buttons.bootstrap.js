@@ -59,7 +59,8 @@ $.extend( true, DataTable.Buttons.defaults, {
 			className: 'dt-buttons btn-group flex-wrap'
 		},
 		button: {
-			className: 'btn btn-secondary'
+			className: 'btn btn-secondary',
+			active: 'active'
 		},
 		collection: {
 			action: {
@@ -77,7 +78,7 @@ $.extend( true, DataTable.Buttons.defaults, {
 			button: {
 				tag: 'li',
 				className: 'dt-button',
-				active: 'active',
+				active: 'dt-button-active-a',
 				disabled: 'disabled',
 				liner: {
 					tag: 'a'
