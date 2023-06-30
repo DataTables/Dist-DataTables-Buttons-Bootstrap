@@ -4,7 +4,7 @@
     "main": "js/buttons.bootstrap.js",
     "module": "js/buttons.bootstrap.mjs",
     "style": "css/buttons.bootstrap.css",
-    "types": "./types/types.d.ts",
+    "types": "./types/buttons.bootstrap.d.ts",
     "version": "2.3.6",
     "files": [
         "css/**/*.css",
@@ -14,11 +14,11 @@
     ],
     "keywords": [
         "Buttons",
-        "Column Visibility",
-        "csv",
-        "excel",
-        "pdf",
-        "print",
+ "Column Visibility",
+ "csv",
+ "excel",
+ "pdf",
+ "print",
         "Bootstrap",
         "Datatables",
         "jQuery",
@@ -27,8 +27,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-buttons": ">=2.2.3",
-        "datatables.net-bs": ">=1.12.1",
+        "datatables.net-buttons": ">=2.3.6",
+        "datatables.net-bs": ">=1.13.4",
         "jquery": ">=1.7"
     },
     "moduleType": [
