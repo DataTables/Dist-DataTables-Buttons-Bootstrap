@@ -37,6 +37,7 @@ div.dt-buttons {
 div.dt-buttons .dt-button {
   overflow: hidden;
   text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 div.dt-button-info {
@@ -80,10 +81,13 @@ button.dtb-hide-drop {
 
 div.dt-button-collection-title {
   text-align: center;
-  padding: 0.3em 0 0.5em;
+  padding: 0.3em 0.5em 0.5em;
   margin-left: 0.5em;
   margin-right: 0.5em;
   font-size: 0.9em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 div.dt-button-collection-title:empty {
@@ -175,10 +179,23 @@ div.dt-buttons div.dt-button-collection {
   min-width: 200px;
   margin-top: 3px;
   z-index: 2002;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+}
+div.dt-buttons div.dt-button-collection div.dt-button-collection-title {
+  padding: 0.75em 0 0.25em;
 }
 div.dt-buttons div.dt-button-collection .dropdown-menu {
+  position: relative;
   margin-top: 4px;
   display: block;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
 }
 div.dt-buttons div.dt-button-collection .dropdown-menu li {
   position: relative;
@@ -212,6 +229,7 @@ div.dt-buttons div.dt-button-collection .dropdown-menu div.dt-button-split butto
   line-height: 1rem;
   color: #212529;
   padding: 0 16px;
+  overflow: visible;
 }
 div.dt-buttons div.dt-button-collection .dropdown-menu div.dt-button-split button:last-child:hover {
   color: #16181b;
@@ -344,6 +362,11 @@ div.dt-buttons div.dt-button-collection.columns.dtb-b1 .dt-button {
 div.dt-buttons span.caret {
   margin-left: 0.5em;
 }
+div.dt-buttons span.dt-button-spacer {
+  float: left;
+  font-size: 1rem;
+  padding-top: 4px;
+}
 div.dt-buttons span.dt-button-spacer.empty {
   margin: 2px;
 }
@@ -375,6 +398,7 @@ div.dt-buttons .btn.processing:after {
 }
 div.dt-buttons div.dt-button-split button:last-child span {
   margin-left: 0 !important;
+  overflow: visible;
 }
 
 div.dt-button-background {
