@@ -166,6 +166,11 @@ div.dt-button-collection span.dt-button-spacer.bar {
   padding-left: 0;
 }
 
+@media print {
+  table.dataTable tr > * {
+    box-shadow: none !important;
+  }
+}
 html.dark div.dt-button-info {
   background-color: var(--dt-html-background);
   border: 1px solid rgba(255, 255, 255, 0.15);
@@ -227,7 +232,7 @@ div.dt-buttons div.dt-button-collection .dropdown-menu div.dt-button-split butto
   background: transparent;
   border: none;
   line-height: 1rem;
-  color: #212529;
+  color: rgb(33, 37, 41);
   padding: 0 16px;
   overflow: visible;
 }
@@ -386,7 +391,7 @@ div.dt-buttons .btn.processing:after {
   box-sizing: border-box;
   display: block;
   content: " ";
-  border: 2px solid #282828;
+  border: 2px solid rgb(40, 40, 40);
   border-radius: 50%;
   border-left-color: transparent;
   border-right-color: transparent;
