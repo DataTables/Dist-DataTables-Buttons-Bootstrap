@@ -10,8 +10,8 @@
         <license type="expression">MIT</license>
         <tags>Buttons  Column Visibility  csv  excel  pdf  print  Bootstrap  Datatables jQuery table</tags>
         <dependencies>
-            <dependency id="datatables.net-buttons" version="2.2.3"/>
-            <dependency id="datatables.net-bs" version="1.12.1"/>
+            <dependency id="datatables.net-buttons" version="3.2.4"/>
+            <dependency id="datatables.net-bs" version="2.3.2"/>
         </dependencies>
         <contentFiles>
             <files include="**/*" buildAction="Content"/>
@@ -22,6 +22,10 @@
         <file src="js/buttons.bootstrap.js" target="contentFiles\any\any\wwwroot\js"/>
         <file src="js/buttons.bootstrap.min.js" target="content\Scripts"/>
         <file src="js/buttons.bootstrap.min.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/buttons.bootstrap.min.mjs" target="content\Scripts"/>
+        <file src="js/buttons.bootstrap.min.mjs" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/buttons.bootstrap.mjs" target="content\Scripts"/>
+        <file src="js/buttons.bootstrap.mjs" target="contentFiles\any\any\wwwroot\js"/>
         <file src="css/buttons.bootstrap.css" target="content\Content"/>
         <file src="css/buttons.bootstrap.css" target="contentFiles\any\any\wwwroot\css"/>
         <file src="css/buttons.bootstrap.min.css" target="content\Content"/>
