@@ -1,16 +1,12 @@
-/*! Bootstrap integration for DataTables' Buttons
- * © SpryMedia Ltd - datatables.net/license
+/*! Buttons Bootstrap 3 styling 4.0.0-beta.1 for DataTables
+ * Copyright (c) SpryMedia Ltd - datatables.net/license
  */
 
-import jQuery from 'jquery';
 import DataTable from 'datatables.net-bs';
 import Buttons from 'datatables.net-buttons';
 
-// Allow reassignment of the $ variable
-let $ = jQuery;
 
-
-$.extend(true, DataTable.Buttons.defaults, {
+DataTable.util.object.assignDeep(DataTable.Buttons.defaults, {
 	dom: {
 		container: {
 			className: 'dt-buttons btn-group flex-wrap'
@@ -70,3 +66,4 @@ $.extend(true, DataTable.Buttons.defaults, {
 
 
 export default DataTable;
+
