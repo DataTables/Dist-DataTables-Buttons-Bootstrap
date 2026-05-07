@@ -27,8 +27,9 @@
     transform: rotate(360deg);
   }
 }
-div.dataTables_wrapper {
-  position: relative;
+:root {
+  --dtb-processing_border: 2px solid rgb(40, 40, 40);
+  --dtb-processing_filter: drop-shadow(0px 0px 3px white);
 }
 
 div.dt-buttons {
@@ -201,7 +202,7 @@ div.dt-buttons .btn.processing:after {
   box-sizing: border-box;
   display: block;
   content: " ";
-  border: 2px solid rgb(40, 40, 40);
+  border: var(--dtb-processing_border);
   border-radius: 50%;
   border-left-color: transparent;
   border-right-color: transparent;
@@ -210,6 +211,7 @@ div.dt-buttons .btn.processing:after {
   -ms-animation: dtb-spinner 1500ms infinite linear;
   -webkit-animation: dtb-spinner 1500ms infinite linear;
   -moz-animation: dtb-spinner 1500ms infinite linear;
+  filter: var(--dtb-processing_filter);
 }
 div.dt-buttons div.dt-button-split button:last-child span {
   margin-left: 0 !important;
