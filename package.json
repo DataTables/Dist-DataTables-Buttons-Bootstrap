@@ -42,9 +42,10 @@
     "exports": {
         ".": {
             "types": "./types/buttons.bootstrap.d.ts",
+            "style": "./css/buttons.bootstrap.css",
             "import": "./js/buttons.bootstrap.mjs",
-            "default": "./js/buttons.bootstrap.mjs",
-            "require": "./js/buttons.bootstrap.js"
+            "require": "./js/buttons.bootstrap.js",
+            "default": "./js/buttons.bootstrap.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
